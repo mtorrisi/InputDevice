@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container" onOpen="init">
+		<Button id="btnConn" onClick="connect">Connect</Button>
+		<!-- <Button id="btnClose" onClick="close">Close</Button> -->
+		<!-- <Button id="btnWrite" onClick="write">Write</Button> -->
+		<Button id="btnPick" onTouchstart="pick" onTouchend="release"t>Pick</Button>
+	</Window>
+</Alloy>

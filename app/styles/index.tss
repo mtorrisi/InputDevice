@@ -1,0 +1,48 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+},
+"#btnConn":{
+	borderRadius: "5px",
+	top: "10dp",
+	right : "10dp",
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	//backgroundColor : Alloy.Globals.css.tintColor
+}
+
+"#btnClose":{
+	borderRadius: "5px",
+	top: "60dp",
+	right : "10dp",
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	//backgroundColor : Alloy.Globals.css.tintColor
+}
+
+"#btnWrite":{
+	borderRadius: "5px",
+	top: "110dp",
+	right : "10dp",
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	//backgroundColor : Alloy.Globals.css.tintColor
+}
+
+"#btnPick":{
+	borderRadius: "5px",
+	width : "200px",
+	height : "200px",
+	//backgroundColor : Alloy.Globals.css.tintColor
+}
